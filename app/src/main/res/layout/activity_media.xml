@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_activity"
+    tools:context=".Media">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:fontFamily="@font/permanent_marker"
+            android:text="@string/media_video"
+            android:textColor="@color/white"
+            android:textSize="40sp"/>
+
+        <VideoView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:text="@drawable/image"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:fontFamily="@font/permanent_marker"
+            android:text="@string/media_audio"
+            android:textColor="@color/white"
+            android:textSize="40sp"/>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/media_play"
+            android:layout_width="190sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_yellow"
+            android:fontFamily="@font/permanent_marker"
+            android:text="@string/media_play"
+            android:textColor="@color/white"
+            android:textSize="36sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/media_pause"
+            android:layout_width="190sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_yellow"
+            android:fontFamily="@font/permanent_marker"
+            android:text="@string/media_pause"
+            android:textColor="@color/white"
+            android:textSize="36sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/media_stop"
+            android:layout_width="190sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_yellow"
+            android:fontFamily="@font/permanent_marker"
+            android:text="@string/media_stop"
+            android:textColor="@color/white"
+            android:textSize="36sp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

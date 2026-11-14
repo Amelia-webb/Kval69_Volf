@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Kval69_Volf</string>
+
+    <string name="splash_name_app">Hello</string>
+
+    <string name="menu_profile">Профиль</string>
+    <string name="menu_media">Медиа</string>
+    <string name="menu_random">Рандомное число</string>
+    <string name="menu_exit">Выход</string>
+
+    <string name="profile_text_name">Имя</string>
+    <string name="profile_text_nick">Ник</string>
+    <string name="profile_text_bd">Дата рождения</string>
+    <string name="profile_text_email">Email</string>
+
+    <string name="media_video">Видео</string>
+    <string name="media_audio">Аудио</string>
+    <string name="media_play">Пуск</string>
+    <string name="media_pause">Пауза</string>
+    <string name="media_stop">Стоп</string>
+
+    <string name="random_counter">0</string>
+
+    <string name="random1_plus">+</string>
+    <string name="random1_minus">-</string>
+    <string name="random1_random">Получить число</string>
+
+    <string name="random2_random">Это случайное число между 0 и %1d</string>
+
+
+</resources>
